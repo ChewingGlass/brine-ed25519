@@ -10,7 +10,7 @@ keywords = ["solana", "ed25519", "signature", "no_std", "curve25519"]
 categories = ["cryptography", "no-std", "wasm", "embedded"]
 
 [lib]
-crate-type = ["cdylib", "lib"]
+crate-type = ["lib"]
 
 [dependencies]
 curve25519-dalek = { version = "4.1.3", default-features = false, features = ["zeroize"] }
